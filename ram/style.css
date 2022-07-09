@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.parent {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, serif;
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+  font-size: 2rem;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  border-style: dashed;
+  background-color: hsl(200, 100%, 90%);
+  border: 1px solid hsl(200, 100%, 80%);
+}

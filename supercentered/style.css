@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.parent {
+  display: grid;
+  place-items: center;
+
+  /* Just for parent demo size */
+  height: 100vh;
+}
+
+.box {
+  font-size: 2rem;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  border-style: dashed;
+  background-color: hsl(300, 100%, 93%);
+  border: 1px solid hsl(280, 100%, 70%);
+}

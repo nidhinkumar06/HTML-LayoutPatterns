@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: minmax(100px, 25%) 1fr;
+  height: 100%;
+}
+
+.section {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-style: dashed;
+}
+
+.blue {
+  background-color: hsl(200, 100%, 90%);;
+  border: 1px solid hsl(200, 100%, 80%);
+}
+
+.yellow {
+  background-color: hsl(30, 100%, 93%);
+  border: 1px solid hsl(40, 100%, 80%);
+}
