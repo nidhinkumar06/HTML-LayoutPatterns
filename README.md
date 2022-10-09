@@ -16,3 +16,9 @@ The patterns which we are going to see in this series are
 * Sidebar says something
 * Super centered
 * 12-span grid
+* Autobot
+* Container query card
+* Content center
+* Fluffy center
+* Gentle flex
+* Pop n' Plop
